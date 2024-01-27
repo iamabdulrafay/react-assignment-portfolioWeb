@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import axios from "axios";
-import profile from "/portfolio web/src/assets/profile.jpg";
+import profileImage from "../../assets/profile.jpg";
 const Home = ({ dark, text }) => {
   return (
     <div className={`main bg-${dark}   text-${text}`}>

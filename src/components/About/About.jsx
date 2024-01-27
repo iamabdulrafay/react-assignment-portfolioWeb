@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-import profile from "/portfolio web/src/assets/profile.jpg";
+import profileImage from "../../assets/profile.jpg";
 
 import Cards from "../Cards/Cards";
 import Awwards from "../Awwards/Awwards";
@@ -14,7 +14,7 @@ const About = () => {
       <div className="about">
         <div className="top">
           <div className="left">
-            <img src={profile} alt="" />
+            <img src={profileImage} alt="" />
             <h2>web dev </h2>
             <h1 className="hero">Abdul Rafay khan</h1>
           </div>
