@@ -26,7 +26,7 @@ const Home = ({ dark, text }) => {
         </button>
       </div>
       <div className="right">
-        <img src={profile} alt="" />
+        <img src={profileImage} alt="" />
       </div>
     </div>
   );

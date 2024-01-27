@@ -31,7 +31,7 @@ const Blog = () => {
     <>
       <div className="blog">
         {data.map((e) => (
-          <Card key={e.id} style={{ width: "70%" }}>
+          <Card key={e.id} style={{ width: "50%" }}>
             <Card.Img variant="top" src={blog} />
             <Card.Body>
               <Card.Title>{e.title}</Card.Title>
