@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import axios from "axios";
-import profileImage from "../../assets/profile.jpg";
+// import profileImage from "../../assets/profile.jpg";
 const Home = ({ dark, text }) => {
   return (
     <div className={`main bg-${dark}   text-${text}`}>
@@ -25,9 +25,7 @@ const Home = ({ dark, text }) => {
           Download Cv
         </button>
       </div>
-      <div className="right">
-        <img src={profileImage} alt="" />
-      </div>
+      <div className="right">{/* <img src={profileImage} alt="" /> */}</div>
     </div>
   );
 };
