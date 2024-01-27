@@ -2,8 +2,11 @@
   "name": "book-product",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://iamabdulrafay.github.io/react-assignment-portfolioWeb/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build"
   },
