@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <div>
-      {/* //allcomponnets is manage form layout file ---------------- */}
+      {/* //all componnets is manage form layout file ---------------- */}
     </div>
   );
 };
