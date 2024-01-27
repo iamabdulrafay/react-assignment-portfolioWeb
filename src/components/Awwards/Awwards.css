@@ -1,0 +1,53 @@
+.awward-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  width: 19vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  background: #000;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 1vw 2vw;
+}
+
+.box-left {
+  width: 3vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background: #000;
+  justify-content: center;
+}
+
+.awwradsimg {
+  width: 4vw;
+}
+.awwards-heading {
+  font-size: 1vw;
+  color: white;
+}
+.box-right {
+  width: 11vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+  .box {
+    width: 70vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+  }
+  .awwards-heading {
+    font-size: 1.3vw;
+    color: white;
+  }
+}

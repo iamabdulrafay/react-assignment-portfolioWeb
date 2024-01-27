@@ -1,0 +1,34 @@
+.card-flex {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 6vw;
+  justify-content: space-between;
+}
+.page2 {
+  background: #0e0e17;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 14vw 8vw;
+  overflow: hidden;
+}
+.my-expertiese {
+  /* text-align: center; */
+  color: white;
+  padding: 3vw 0;
+  padding: 3vw 6vw;
+}
+
+@media (max-width: 600px) {
+  .card-flex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 6vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+  }
+}

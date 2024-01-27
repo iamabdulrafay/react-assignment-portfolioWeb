@@ -1,0 +1,39 @@
+.details {
+  width: 100vw;
+  min-height: 100vh;
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25vw;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .details {
+    padding: 0 4vw;
+  }
+  .details h3 {
+    font-size: 3vw;
+  }
+  .details h1 {
+    font-size: 6vw;
+  }
+  .details p {
+    font-size: 4vw;
+  }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  .details {
+    padding: 0 7vw;
+  }
+  .details h3 {
+    font-size: 2vw;
+  }
+  .details h1 {
+    font-size: 4vw;
+  }
+  .details p {
+    font-size: 2vw;
+  }
+}
